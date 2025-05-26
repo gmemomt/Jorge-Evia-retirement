@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Evia's Retirement Celebration 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Join us in celebrating Captain Jorge Evia's retirement after 45 years of flying excellence">
+    <meta property="og:title" content="Jorge Evia's Retirement Celebration">
+    <meta property="og:description" content="Celebrating 45 years of flying excellence">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="plane-loader">✈️</div>
+            <div class="loading-text">Preparing for takeoff...</div>
+        </div>
+    </div>
+
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="cloud cloud1">☁️</div>
+        <div class="cloud cloud2">☁️</div>
+        <div class="cloud cloud3">☁️</div>
+        <div class="cloud cloud4">☁️</div>
+        <div class="plane">✈️</div>
+        <div class="stars"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="pilot-icon-nav">👨‍✈️</span>
+                <span>Captain Jorge Evia</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#invitation" class="nav-link">Invitation</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#rsvp" class="nav-link">RSVP</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section with Main Photo -->
+    <header class="hero-section" id="home">
+        <div class="hero-image">
+            <img src="fotos/main-photo.jpeg" alt="Captain Jorge Evia" class="main-photo" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="pilot-icon">👨‍✈️</div>
+            <h1 class="main-title">
+                <span class="title-line">Retirement</span>
+                <span class="title-line">Celebration</span>
+            </h1>
+            <h2 class="subtitle">Captain Jorge Evia</h2>
+            <div class="years-badge">
+                <span class="badge-number">45</span>
+                <span class="badge-text">Years of Flying Excellence</span>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">45</div>
+                    <div class="stat-label">Years</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Miles</div>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="smoothScrollTo('#invitation')">
+            <div class="scroll-text">Scroll to explore</div>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="en">🇺🇸 EN</button>
+        <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
+        <button class="lang-btn" data-lang="zh">🇹🇼 中文</button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Invitation Section -->
+        <section class="invitation-section" id="invitation">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="You're Invited" data-es="Estás Invitado" data-zh="您被邀請">You're Invited</h2>
+                    <div class="section-subtitle" data-en="Join us for a special celebration" data-es="Únete a nosotros para una celebración especial" data-zh="加入我們的特別慶祝活動">Join us for a special celebration</div>
+                </div>
+                
+                <div class="invitation-card">
+                    <!-- English Content -->
+                    <div class="content-lang" id="content-en">
+                        <div class="invitation-header">
+                            <h3>Hello.</h3>
+                            <div class="decorative-line"></div>
+                        </div>
+                        <p class="intro-text">After more than 45 years as a pilot, I will be retiring in August. We plan to meet for lunch with family, friends, and colleagues.</p>
+                        <p class="highlight-text">It would be a pleasure to have you join us on <strong>August 16th</strong> to celebrate the end of one cycle and the beginning of a new one.</p>
+                        
+                        <div class="event-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Date</div>
+                                    <div class="detail-value">August 16th, 2024</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Time</div>
+                                    <div class="detail-value">11:00 AM</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Venue</div>
+                                    <div class="detail-value">緣圓餐廳 Restaurant (3rd Floor)</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Address</div>
+                                    <div class="detail-value">No. 846, Zhongzheng Rd, Taoyuan District, Taoyuan City</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="invitation-footer">
+                            <p>Please confirm your attendance.</p>
+                            <p>I look forward to hearing from you.</p>
+                            <div class="signature">
+                                <div class="signature-text">Best regards,</div>
+                                <div class="signature-name">Jorge Evia</div>
+                                <div class="signature-title">Captain</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spanish Content -->
+                    <div class="content-lang" id="content-es" style="display: none;">
+                        <div class="invitation-header">
+                            <h3>Hola.</h3>
+                            <div class="decorative-line"></div>
+                        </div>
+                        <p class="intro-text">Después de más de 45 años como piloto, me jubilaré en agosto. Planeamos reunirnos para almorzar con familiares, amigos y colegas.</p>
+                        <p class="highlight-text">Será un placer contar con su presencia el <strong>16 de agosto</strong> para celebrar el fin de un ciclo y el comienzo de uno nuevo.</p>
+                        
+                        <div class="event-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Fecha</div>
+                                    <div class="detail-value">16 de agosto, 2024</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Hora</div>
+                                    <div class="detail-value">11:00 h</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Lugar</div>
+                                    <div class="detail-value">Restaurante 緣圓餐廳 (Tercer piso)</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">Dirección</div>
+                                    <div class="detail-value">N.° 846, Zhongzheng Rd, distrito de Taoyuan, ciudad de Taoyuan</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="invitation-footer">
+                            <p>Por favor, confirme su asistencia.</p>
+                            <p>Espero su respuesta.</p>
+                            <div class="signature">
+                                <div class="signature-text">Saludos cordiales,</div>
+                                <div class="signature-name">Jorge Evia</div>
+                                <div class="signature-title">Capitán</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chinese Content -->
+                    <div class="content-lang" id="content-zh" style="display: none;">
+                        <div class="invitation-header">
+                            <h3>你好。</h3>
+                            <div class="decorative-line"></div>
+                        </div>
+                        <p class="intro-text">作為一名飛行員，我已經工作了 45 多年，並將於八月退休。我們計劃與家人、朋友和同事共進午餐。</p>
+                        <p class="highlight-text">我們很高興您能於 <strong>8 月 16 日</strong> 加入我們，慶祝一個週期的結束和新週期的開始。</p>
+                        
+                        <div class="event-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">日期</div>
+                                    <div class="detail-value">2024年8月16日</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">時間</div>
+                                    <div class="detail-value">上午11點</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">地點</div>
+                                    <div class="detail-value">緣圓餐廳 (三樓)</div>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <div class="detail-label">地址</div>
+                                    <div class="detail-value">桃園市桃園區中正路846號</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="invitation-footer">
+                            <p>請確認您的出席。</p>
+                            <p>我期待您的回覆。</p>
+                            <div class="signature">
+                                <div class="signature-text">谢谢，</div>
+                                <div class="signature-name">Jorge Evia</div>
+                                <div class="signature-title">機長</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Link -->
+                <div class="maps-section">
+                    <a href="https://maps.app.goo.gl/ifHPzhT6ZdoE47w68?g_st=il" 
+                       target="_blank" class="maps-btn">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span data-en="View Location on Google Maps" 
+                              data-es="Ver Ubicación en Google Maps" 
+                              data-zh="在Google地圖上查看位置">View Location on Google Maps</span>
+                    </a>
+                    <button class="calendar-btn" onclick="addToCalendar()">
+                        <i class="fas fa-calendar-plus"></i>
+                        <span data-en="Add to Calendar" 
+                              data-es="Agregar al Calendario" 
+                              data-zh="添加到日曆">Add to Calendar</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Photo Carousel Section -->
+        <section class="carousel-section" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="A Journey Through 45 Years" 
+                        data-es="Un Viaje a Través de 45 Años" 
+                        data-zh="45年的旅程">A Journey Through 45 Years</h2>
+                    <div class="section-subtitle" data-en="Memories from an incredible aviation career" 
+                         data-es="Recuerdos de una increíble carrera en aviación" 
+                         data-zh="令人難以置信的航空職業生涯回憶">Memories from an incredible aviation career</div>
+                </div>
+                
+                <div class="carousel-container">
+                    <div class="carousel-wrapper">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Photos will be loaded dynamically -->
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-btn carousel-btn-prev" id="prevBtn" aria-label="Previous photo">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn carousel-btn-next" id="nextBtn" aria-label="Next photo">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    
+                    <div class="carousel-controls">
+                        <button class="carousel-control-btn" id="playPauseBtn" aria-label="Play/Pause slideshow">
+                            <i class="fas fa-pause"></i>
+                        </button>
+                        <div class="carousel-progress">
+                            <div class="carousel-progress-bar" id="progressBar"></div>
+                        </div>
+                        <div class="carousel-counter">
+                            <span id="currentSlide">1</span> / <span id="totalSlides">30</span>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Indicators will be generated dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP Section -->
+        <section class="rsvp-section" id="rsvp">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-en="Please Confirm Your Attendance" 
+                        data-es="Por Favor Confirme su Asistencia" 
+                        data-zh="請確認您的出席">Please Confirm Your Attendance</h2>
+                    <div class="section-subtitle" data-en="We'd love to celebrate with you" 
+                         data-es="Nos encantaría celebrar contigo" 
+                         data-zh="我們很樂意與您一起慶祝">We'd love to celebrate with you</div>
+                </div>
+                
+                <div class="rsvp-card">
+                    <form class="rsvp-form" id="rsvpForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" data-en="Full Name" data-es="Nombre Completo" data-zh="全名">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="form-icon"><i class="fas fa-user"></i></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" data-en="Email Address" data-es="Correo Electrónico" data-zh="電子郵件">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="form-icon"><i class="fas fa-envelope"></i></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label data-en="Will you attend?" data-es="¿Asistirá?" data-zh="您會參加嗎？">Will you attend?</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="attendance" value="yes" required>
+                                    <span class="radio-custom"></span>
+                                    <span class="radio-text" data-en="Yes, I'll be there! 🎉" data-es="¡Sí, estaré allí! 🎉" data-zh="是的，我會參加！🎉">Yes, I'll be there! 🎉</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="attendance" value="no" required>
+                                    <span class="radio-custom"></span>
+                                    <span class="radio-text" data-en="Sorry, I can't make it 😔" data-es="Lo siento, no podré asistir 😔" data-zh="抱歉，我無法參加 😔">Sorry, I can't make it 😔</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guests" data-en="Number of Guests" data-es="Número de Invitados" data-zh="客人數量">Number of Guests</label>
+                            <select id="guests" name="guests">
+                                <option value="1">Just me</option>
+                                <option value="2">2 people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5+">5+ people</option>
+                            </select>
+                            <div class="form-icon"><i class="fas fa-users"></i></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-en="Message (Optional)" data-es="Mensaje (Opcional)" data-zh="留言（可選）">Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" 
+                                     placeholder="Share your favorite memory or well wishes..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text" data-en="Send RSVP" data-es="Enviar Confirmación" data-zh="發送回覆">Send RSVP</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-message">
+                    <h3 data-en="Thank you for being part of this journey!" 
+                       data-es="¡Gracias por ser parte de este viaje!" 
+                       data-zh="感謝您成為這段旅程的一部分！">Thank you for being part of this journey!</h3>
+                    <p data-en="45 years of memories, countless miles, and endless gratitude" 
+                       data-es="45 años de recuerdos, innumerables millas y gratitud infinita" 
+                       data-zh="45年的回憶，無數英里，無盡的感激">45 years of memories, countless miles, and endless gratitude</p>
+                </div>
+                <div class="footer-actions">
+                    <button class="share-btn" onclick="shareInvitation()">
+                        <i class="fas fa-share-alt"></i>
+                        <span data-en="Share Invitation" data-es="Compartir Invitación" data-zh="分享邀請">Share Invitation</span>
+                    </button>
+                    <button class="print-btn" onclick="printInvitation()">
+                        <i class="fas fa-print"></i>
+                        <span data-en="Print" data-es="Imprimir" data-zh="列印">Print</span>
+                    </button>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Captain Jorge Evia Retirement Celebration</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 data-en="Thank You!" data-es="¡Gracias!" data-zh="謝謝您！">Thank You!</h4>
+                <button class="close-btn" onclick="closeModal()" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="success-animation">
+                    <div class="success-icon">✅</div>
+                    <div class="success-confetti"></div>
+                </div>
+                <p data-en="Your RSVP has been received!" 
+                   data-es="¡Su confirmación ha sido recibida!" 
+                   data-zh="您的回覆已收到！">Your RSVP has been received!</p>
+                <div class="modal-actions">
+                    <button class="modal-btn" onclick="addToCalendar()">
+                        <i class="fas fa-calendar-plus"></i>
+                        <span data-en="Add to Calendar" data-es="Agregar al Calendario" data-zh="添加到日曆">Add to Calendar</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Modal -->
+    <div class="photo-modal" id="photoModal">
+        <div class="photo-modal-content">
+            <button class="photo-modal-close" onclick="closePhotoModal()" aria-label="Close photo">&times;</button>
+            <div class="photo-modal-nav">
+                <button class="photo-nav-btn photo-nav-prev" onclick="navigatePhoto(-1)" aria-label="Previous photo">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="photo-nav-btn photo-nav-next" onclick="navigatePhoto(1)" aria-label="Next photo">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <img id="modalPhoto" src="" alt="" loading="lazy">
+            <div class="photo-modal-caption" id="modalCaption"></div>
+            <div class="photo-modal-counter" id="photoCounter"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
