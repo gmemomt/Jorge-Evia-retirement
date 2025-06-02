@@ -62,7 +62,17 @@ function initializeLanguageSystem() {
     // Set default language
     switchLanguage('en');
 }
-
+document.addEventListener('DOMContentLoaded', function() {
+    const messageTextarea = document.getElementById('message');
+    if (messageTextarea) {
+        messageTextarea.addEventListener('keydown', function(e) {
+            // Ensure space key works in the textarea
+            if (e.key === ' ' || e.keyCode === 32) {
+                e.stopPropagation(); // Stop event from bubbling up
+            }
+        }, true); // Use capture phase to intercept before other handlers
+    }
+});
 function switchLanguage(lang) {
     currentLang = lang;
     
@@ -671,18 +681,24 @@ document.addEventListener('click', function(e) {
 
 // Close photo modal with Escape key
 document.addEventListener('keydown', function(e) {
-    const modal = document.getElementById('photoModal');
-    if (e.key === 'Escape' && modal.style.display === 'block') {
-        closePhotoModal();
-    }
-    
-    // Navigate photos with arrow keys in modal
-    if (modal.style.display === 'block') {
-        if (e.key === 'ArrowLeft') {
-            navigatePhoto(-1);
-        } else if (e.key === 'ArrowRight') {
-            navigatePhoto(1);
+    // Skip completely if user is typing in a form field
+    if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') {
+        // Only handle Escape key for form fields
+        if (e.key === 'Escape') {
+            const modal = document.getElementById('photoModal');
+            if (modal.style.display === 'block') {
+                closePhotoModal();
+            }
         }
+        return; // Return early for ALL keys when in form fields
+    }
+
+    // Only execute these for non-form elements
+    if (e.key === 'ArrowLeft') this.prevSlide();
+    if (e.key === 'ArrowRight') this.nextSlide();
+    if (e.key === ' ') {
+        e.preventDefault();  // THIS IS THE PROBLEM!
+        this.toggleAutoPlay();
     }
 });
 
@@ -1276,18 +1292,35 @@ function startPageAnimations() {
 }
 
 // Accessibility
+// Accessibility
+// Accessibility
 function initializeAccessibility() {
     // Add focus management
     const focusableElements = document.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
     
     // Add keyboard navigation for carousel
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Tab') {
-            // Manage focus for modal
-            const modal = document.getElementById('photoModal');
-            if (modal.style.display === 'block') {
-                const modalFocusable = modal.querySelectorAll('button');
-                // Focus management logic here
+    document.addEventListener('keydown', function(e) {
+        // Skip completely if user is typing in a form field
+        if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') {
+            // Only handle Escape key for form fields
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('photoModal');
+                if (modal.style.display === 'block') {
+                    closePhotoModal();
+                }
+            }
+            return; // Return early for ALL keys when in form fields
+        }
+        
+        // Only execute these for non-form elements
+        if (photoCarousel) {  // Check if carousel exists
+            if (e.key === 'ArrowLeft') {
+                photoCarousel.prevSlide();
+            } else if (e.key === 'ArrowRight') {
+                photoCarousel.nextSlide();
+            } else if (e.key === ' ') {
+                e.preventDefault();  // Only prevent default when we're actually handling the space key
+                photoCarousel.toggleAutoPlay();
             }
         }
     });
@@ -1306,6 +1339,8 @@ function initializeAccessibility() {
     liveRegion.id = 'live-region';
     document.body.appendChild(liveRegion);
 }
+
+
 
 // Performance optimizations
 function optimizePerformance() {

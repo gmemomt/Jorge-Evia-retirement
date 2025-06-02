@@ -1007,8 +1007,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
-/* RSVP Section */
-/* RSVP Section */
+
 /* RSVP Section */
 .rsvp-section {
     padding: 6rem 0;
@@ -1806,3 +1805,4 @@ body {
         color: var(--primary-color);
     }
 }
+/* Temporary fix to test */
