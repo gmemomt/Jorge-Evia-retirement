@@ -190,7 +190,6 @@ body {
     padding: 0.5rem 0;
 }
 
-.nav-link:hover,
 .nav-link.active {
     color: var(--primary-color);
 }
@@ -240,9 +239,9 @@ body {
 .hero-image {
     position: absolute;
     top: ;
-    left: 0;
+    left: ;
     width: 100%;
-    height: 100%;
+    height: 85%;
     z-index: 1;
 }
 
@@ -357,8 +356,8 @@ body {
 
 .scroll-indicator {
     position: absolute;
-    bottom: -10rem;
-    left: 40%;
+    bottom: 4rem;
+    left: 38%;
     transform: translateX(-50%);
     text-align: center;
     cursor: pointer;
@@ -521,7 +520,7 @@ body {
 }
 
 .highlight-text {
-    font-size: 1.3rem;
+    font-size: 1.rem;
     margin-bottom: 2rem;
     color: var(--text-dark);
     font-weight: 500;
@@ -590,6 +589,7 @@ body {
     font-size: 1.1rem;
     color: var(--text-dark);
     font-weight: 500;
+    
 }
 
 .invitation-footer {
@@ -674,7 +674,22 @@ body {
     transform: translateY(-3px);
     box-shadow: var(--shadow-heavy);
 }
-
+.confirm-invitation-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: linear-gradient(45deg, #10b981, #059669);
+    color: white;
+    padding: 1.2rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    box-shadow: var(--shadow-medium);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
 /* Carousel Section */
 .carousel-section {
     padding: 6rem 0;

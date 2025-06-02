@@ -233,123 +233,123 @@ class PhotoCarousel {
         const photoData = [
             {
                 filename: 'career-1.jpeg',
-                title: 'Early Flying Days',
-                description: 'Starting the journey as a young pilot with dreams of the sky',
-                titleEs: 'Primeros Días de Vuelo',
-                descriptionEs: 'Comenzando el viaje como piloto joven con sueños del cielo',
-                titleZh: '早期飛行日子',
-                descriptionZh: '作為年輕飛行員開始旅程，懷著對天空的夢想',
-                year: '1979'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-2.jpeg',
-                title: 'First Commercial Flight',
-                description: 'Taking command of commercial aircraft for the first time',
-                titleEs: 'Primer Vuelo Comercial',
-                descriptionEs: 'Tomando el mando de aeronaves comerciales por primera vez',
-                titleZh: '第一次商業飛行',
-                descriptionZh: '第一次指揮商用飛機',
-                year: '1982'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-3.jpeg',
-                title: 'International Routes',
-                description: 'Expanding horizons to international destinations',
-                titleEs: 'Rutas Internacionales',
-                descriptionEs: 'Expandiendo horizontes a destinos internacionales',
-                titleZh: '國際航線',
-                descriptionZh: '將視野擴展到國際目的地',
-                year: '1985'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-4.jpeg',
-                title: 'Training New Pilots',
-                description: 'Sharing knowledge and experience with the next generation',
-                titleEs: 'Entrenando Nuevos Pilotos',
-                descriptionEs: 'Compartiendo conocimiento y experiencia con la nueva generación',
-                titleZh: '培訓新飛行員',
-                descriptionZh: '與下一代分享知識和經驗',
-                year: '1990'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-5.jpeg',
-                title: 'Captain Promotion',
-                description: 'Achieving the prestigious rank of Captain',
-                titleEs: 'Promoción a Capitán',
-                descriptionEs: 'Alcanzando el prestigioso rango de Capitán',
-                titleZh: '晉升機長',
-                descriptionZh: '達到機長的崇高級別',
-                year: '1995'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-6.jpeg',
-                title: 'Advanced Aircraft',
-                description: 'Mastering the latest aviation technology',
-                titleEs: 'Aeronaves Avanzadas',
-                descriptionEs: 'Dominando la última tecnología de aviación',
-                titleZh: '先進飛機',
-                descriptionZh: '掌握最新的航空技術',
-                year: '2000'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-7.jpeg',
-                title: 'Safety Excellence',
-                description: 'Leading safety initiatives and protocols',
-                titleEs: 'Excelencia en Seguridad',
-                descriptionEs: 'Liderando iniciativas y protocolos de seguridad',
-                titleZh: '安全卓越',
-                descriptionZh: '領導安全倡議和協議',
-                year: '2005'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-8.jpeg',
-                title: 'Mentorship Role',
-                description: 'Guiding and inspiring fellow aviators',
-                titleEs: 'Rol de Mentor',
-                descriptionEs: 'Guiando e inspirando a compañeros aviadores',
-                titleZh: '導師角色',
-                descriptionZh: '指導和激勵同行飛行員',
-                year: '2010'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-9.jpeg',
-                title: 'Global Recognition',
-                description: 'Receiving awards for outstanding service',
-                titleEs: 'Reconocimiento Global',
-                descriptionEs: 'Recibiendo premios por servicio excepcional',
-                titleZh: '全球認可',
-                descriptionZh: '因卓越服務獲得獎項',
-                year: '2015'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-10.jpeg',
-                title: 'Final Years',
-                description: 'The culmination of an extraordinary career',
-                titleEs: 'Años Finales',
-                descriptionEs: 'La culminación de una carrera extraordinaria',
-                titleZh: '最後幾年',
-                descriptionZh: '非凡職業生涯的頂峰',
-                year: '2020'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-11.jpeg',
-                title: 'Legacy Building',
-                description: 'Creating a lasting impact on aviation',
-                titleEs: 'Construyendo Legado',
-                descriptionEs: 'Creando un impacto duradero en la aviación',
-                titleZh: '建立遺產',
-                descriptionZh: '對航空業產生持久影響',
-                year: '2022'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             },
             {
                 filename: 'career-12.jpeg',
-                title: 'Final Flight',
-                description: 'The emotional last flight of an incredible journey',
-                titleEs: 'Último Vuelo',
-                descriptionEs: 'El emotivo último vuelo de un viaje increíble',
-                titleZh: '最後一次飛行',
-                descriptionZh: '令人難以置信旅程的感人最後一次飛行',
-                year: '2024'
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             }
         ];
         
@@ -357,13 +357,13 @@ class PhotoCarousel {
         for (let i = 13; i <= 30; i++) {
             photoData.push({
                 filename: `career-${i}.jpeg`,
-                title: `Career Milestone ${i}`,
-                description: `Another memorable moment in Captain Evia's journey`,
-                titleEs: `Hito de Carrera ${i}`,
-                descriptionEs: `Otro momento memorable en el viaje del Capitán Evia`,
-                titleZh: `職業里程碑 ${i}`,
-                descriptionZh: `埃維亞機長旅程中的另一個難忘時刻`,
-                year: `${1979 + Math.floor((i-1) * 1.5)}`
+                title: 'A Journey Through 45 Years',
+                description: 'Memories from an incredible aviation career',
+                titleEs: 'Un Viaje a Través de 45 Años',
+                descriptionEs: 'Recuerdos de una increíble carrera en aviación',
+                titleZh: '45年的旅程',
+                descriptionZh: '令人難以置信的航空職業生涯回憶',
+                year: 'Memories'
             });
         }
         

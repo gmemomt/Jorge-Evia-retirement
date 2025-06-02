@@ -61,29 +61,31 @@
         <div class="hero-content">
             <div class="pilot-icon">👨‍✈️</div>
             <h1 class="main-title">
-                <span class="title-line">Retirement</span>
-                <span class="title-line">Celebration</span>
+                <span class="title-line" data-en="Retirement" 
+                      data-es="Jubilación" 
+                      data-zh="退休">Retirement</span>
+                <span class="title-line" data-en="Celebration" 
+                      data-es="Celebración" 
+                      data-zh="慶祝">Celebration</span>
             </h1>
-            <h2 class="subtitle">Captain Jorge Evia</h2>
+            <h2 class="subtitle" data-en="Captain Jorge Evia" 
+                data-es="Capitán Jorge Evia" 
+                data-zh="機長 Jorge Evia">Captain Jorge Evia</h2>
             <div class="years-badge">
                 <span class="badge-number">45</span>
-                <span class="badge-text">Years of Flying Excellence</span>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-number">45</div>
-                    <div class="stat-label">Years</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">∞</div>
-                    <div class="stat-label">Miles</div>
+                <span class="badge-text" data-en="Years of Flying Excellence" 
+                      data-es="Años de Excelencia en Vuelo" 
+                      data-zh="年飛行卓越">Years of Flying Excellence</span>
             </div>
         </div>
         <div class="scroll-indicator" onclick="smoothScrollTo('#invitation')">
-            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-text" data-en="Scroll to explore" 
+                 data-es="Desplázate para explorar" 
+                 data-zh="滾動探索">Scroll to explore</div>
             <i class="fas fa-chevron-down"></i>
         </div>
     </header>
+
 
     <!-- Language Selector -->
     <div class="language-selector">
@@ -281,22 +283,29 @@
                     </div>
                 </div>
 
-                <!-- Google Maps Link -->
-                <div class="maps-section">
-                    <a href="https://maps.app.goo.gl/ifHPzhT6ZdoE47w68?g_st=il" 
-                       target="_blank" class="maps-btn">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <span data-en="View Location on Google Maps" 
-                              data-es="Ver Ubicación en Google Maps" 
-                              data-zh="在Google地圖上查看位置">View Location on Google Maps</span>
-                    </a>
-                    <button class="calendar-btn" onclick="addToCalendar()">
-                        <i class="fas fa-calendar-plus"></i>
-                        <span data-en="Add to Calendar" 
-                              data-es="Agregar al Calendario" 
-                              data-zh="添加到日曆">Add to Calendar</span>
-                    </button>
-                </div>
+<!-- Google Maps Link -->
+<div class="maps-section">
+    <a href="https://maps.app.goo.gl/ifHPzhT6ZdoE47w68?g_st=il" 
+       target="_blank" class="maps-btn">
+        <i class="fas fa-map-marked-alt"></i>
+        <span data-en="View Location on Google Maps" 
+              data-es="Ver Ubicación en Google Maps" 
+              data-zh="在Google地圖上查看位置">View Location on Google Maps</span>
+    </a>
+    <button class="calendar-btn" onclick="addToCalendar()">
+        <i class="fas fa-calendar-plus"></i>
+        <span data-en="Add to Calendar" 
+              data-es="Agregar al Calendario" 
+              data-zh="添加到日曆">Add to Calendar</span>
+    </button>
+    <a href="#rsvp" class="confirm-invitation-btn">
+        <i class="fas fa-check-circle"></i>
+        <span data-en="Confirm Invitation" 
+              data-es="Confirmar Invitación" 
+          data-zh="確認邀請">Confirm Invitation</span>
+    </a>
+</div>
+
             </div>
         </section>
 
@@ -396,7 +405,7 @@
                                 <option value="2">2 people</option>
                                 <option value="3">3 people</option>
                                 <option value="4">4 people</option>
-                                <option value="5+">5+ people</option>
+                                <option value="5">5 people</option>
                             </select>
                             <div class="form-icon"><i class="fas fa-users"></i></div>
                         </div>
