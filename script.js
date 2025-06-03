@@ -1240,8 +1240,8 @@ function printInvitation() {
 function addToCalendar() {
     const event = {
         title: 'Jorge Evia\'s Retirement Celebration',
-        start: '2024-08-16T11:00:00',
-        end: '2024-08-16T15:00:00',
+        start: '2025-08-16T11:00:00',
+        end: '2025-08-16T15:00:00',
         description: 'Retirement celebration lunch for Captain Jorge Evia after 45 years of flying excellence',
         location: '緣圓餐廳, 3rd Floor, No. 846, Zhongzheng Rd, Taoyuan District, Taoyuan City'
     };
